@@ -234,9 +234,9 @@ text-shadow: 2px 2px 4px #000000;
     box-shadow: 2px 2px 4px #000000;
 }
 .belt-ball {
-  height: 45px;
-  width: 45px;
-  background-color: yellow;
+  height: 35px;
+  width: 35px;
+  border: 8px solid yellow;
   position: absolute;
   left: 209px;
   top: 439px;
