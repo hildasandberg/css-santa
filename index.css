@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body {
+  background-color: #00BFFF;
+}
+
+.santa-wrapper {
+  position: relative;
+}
+
+.head-wrapper {
+display: flex;
+flex-direction: column;
+align-items: center;
+position: absolute;
+left: 150px;
+/*z-index: -1px;*/
+}
+
+.hat-wrapper {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.hat-ball {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px #000000;
+
+}
+
+.hat {
+  width: 0;
+  height: 0;
+  border-left: 65px solid transparent;
+  border-right: 65px solid transparent;
+  border-bottom: 140px solid red;
+}
+
+.white-fluff {
+  height: 30px;
+  width: 150px;
+  background-color: white;
+  border-radius: 5px;
+  z-index: 3000;
+  box-shadow: 2px 2px 4px #000000;
+}
+
+.beardSides {
+  width: 120px;
+  background: gray;
+  box-shadow: 2px 2px 4px #000000;
+}
+
+.forehead {
+  background: pink;
+  margin-left: 10px;
+  height: 15px;
+  width: 100px;
+}
+
+  .eyeWrapper {
+  margin-left: 10px;
+  height: 40px;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: pink;
+}
+
+.oneEye {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.eyebrow {
+  height: 10px;
+  width: 30px;
+  background-color: gray;
+  border-radius: 30%;
+  box-shadow: 2px 2px 4px #000000;
+}
+.eye {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+.eye-color{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15px;
+  width: 15px;
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.pupil {
+  height: 10px;
+  width: 10px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.noseWrapper {
+  height: 55px;
+  z-index: 4000;
+  width: 30px;
+  background-color: pink;
+  border-bottom-left-radius: 50% 25%;
+  border-bottom-right-radius: 50% 25%;
+  box-shadow: 2px 2px 4px #000000;
+  }
+
+.beard {
+  z-index: 3000;
+  height: 125px;
+  width: 120px;
+  background-color: gray;
+  border-bottom-left-radius: 50% 25%;
+  border-bottom-right-radius: 50% 25%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 2px 2px 4px #000000;
+}
+
+.mouth {
+  margin-top: 20px;
+  height: 15px;
+  width: 40px;
+  background-color: white;
+  border: 5px solid red;
+  border-bottom-left-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+}
+
+.tooth {
+  width: 20%;
+  border: 0.5px solid black;
+}
+
+.upper-body-wrapper {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: 300px;
+  left: 0px;
+  z-index: -6000;
+  display: flex;
+  justify-content: space-between;
+  left: 80px;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+.arm {
+  height: 40px;
+  width: 100px;
+  background-color: red;
+  border-radius: 20px;
+  position: absolute;
+  left: -70px;
+  top: 75px;
+  box-shadow: 2px 2px 4px #000000;
+}
+
+.arm-right {
+  background-color: red;
+  left: 270px;
+}
+
+.lower-body-wrapper {
+  left: 80px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: none;
+  position: absolute;
+  top: 500px;
+  left: 80px;
+  z-index: -6000;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 75px;
+}
+
+.leg {
+  box-shadow: 2px 2px 4px #000000;
+  height: 90px;
+  width: 40px;
+  background-color: red;
+  position: absolute;
+  top: 65px;
+  border-radius: 20px;
+}
+
+.leg-right {
+  background-color: red;
+  position: absolute;
+  right: 0px;
+}
+
+h1 {
+font-family: 'Lobster', cursive;
+font-size: 200px;
+color: white;
+text-shadow: 2px 2px 4px #000000;
+}
+
+.greeting {
+  position: absolute;
+  left: 500px;
+  top: -60px;
+}
+
+.belt {
+  height: 38px;
+  width: 300px;
+  background-color: black;
+  position: absolute;
+  left: 80px;
+  top: 443px;
+    box-shadow: 2px 2px 4px #000000;
+}
+.belt-ball {
+  height: 45px;
+  width: 45px;
+  background-color: yellow;
+  position: absolute;
+  left: 209px;
+  top: 439px;
+  border-radius: 50%;
+}
+
+.hand {
+  height: 40px;
+  width: 40px;
+  background-color: pink;
+  border-radius: 50%;
+  position: absolute;
+  top: 376px;
+  left: 445px;
+  box-shadow: 2px 2px 4px #000000;
+}
+.left-hand {
+  top: 376px;
+  left: -5px;
+}
+
+.shoe {
+  height: 40px;
+  width: 80px;
+  background-color: black;
+  border-radius: 20px;
+  position: absolute;
+  top: 650px;
+  left: 260px;
+    box-shadow: 2px 2px 4px #000000;
+}
+.left-shoe {
+  top: 650px;
+  left: 150px;
+}
+
+.bottle {
+  height: 80px;
+  width: 30px;
+  background-color: DarkOliveGreen;
+  border-radius: 20px;
+  position: absolute;
+  top: 340px;
+  left: 445px;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+.bottle-neck {
+  height: 40px;
+  width: 10px;
+  background-color: DarkOliveGreen;
+  border-radius: 20px;
+  position: absolute;
+  top: 310px;
+  left: 455px;
+}
+
+
+.ball-grad {
+  background: radial-gradient(white, gray);
+}
+.body-grad {
+  background: linear-gradient(darkred, red);
+}
+
+.nose-grad {
+  background: radial-gradient(red, pink, pink);
+}
